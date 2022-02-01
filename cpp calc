@@ -128,16 +128,16 @@ int main()
     else if(op == 8){ // cube root
         num = cbrt(ptr[0]);
     }
-    else if(op == 9){
+    else if(op == 9){ // exponent
         num = pow(ptr[0], ptr[1]);
     }
-    else if(op == 10){
+    else if(op == 10){ //SA of rect prism
         num = b*h*2+b*l*2+h*l*2;
     }
-    else if(op == 11){
+    else if(op == 11){ //V of rect prism
         num = b*h*l;
     }
-    else if(op == 12){
+    else if(op == 12){ //V of square pyramid
         num = b*h/3;
     }
    
